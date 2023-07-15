@@ -165,7 +165,7 @@ def run_project():
     if not args.preprocess:
         
         #video_only = True if len(os.listdir(paths.path_dataset))==1 else False
-        seq_matching = True if len(os.listdir(paths.path_dataset))==1 else False
+        seq_matching = True if len([f for f in os.listdir(paths.path_dataset) if not os.path.isdir(f)])==1 else False
     
         projectinit = paths.path_projects+':/projects'
         #containerImage = 'opendronemap/odm:gpu' #'odm_mdai:latest'
