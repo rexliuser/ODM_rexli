@@ -95,6 +95,7 @@ def send_to_aws(commandlist, paths):
 
 class Paths:
     def __init__(self, projectname):
+        self.projectname = projectname
         self.path_script = os.path.dirname(os.path.realpath(__file__))
         self.path_odm = os.path.dirname(self.path_script)
         self.path_projects = os.path.join(self.path_odm,'projects')
