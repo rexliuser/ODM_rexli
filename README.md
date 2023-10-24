@@ -29,13 +29,7 @@ To get started with the project, follow the steps below:
 conda env create -f environment.yml
 ```
 
-### Pip Environment
-
-1. Install the required packages using the provided `requirements.txt` file:
-```
-pip install -r requirements.txt
-```
-## Project Structure
+## Folder Structure
 
 Follow the directory hierarchy below for organizing your project files:
 ```
