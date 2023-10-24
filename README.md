@@ -39,6 +39,7 @@ pip install -r requirements.txt
 
 Follow the directory hierarchy below for organizing your project files:
 ```
+- scripts_odm
 - projects
   - [project_name]
     - datasets
@@ -47,7 +48,7 @@ Follow the directory hierarchy below for organizing your project files:
       - ...
 ```
 ## Running the Project
-Navigate to the **scripts** folder in your terminal.
+Navigate to the **scripts_odm** folder in your terminal.
 
 Run the following command to execute the project:
 ```
