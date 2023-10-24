@@ -69,7 +69,7 @@ def send_to_aws(commandlist, paths):
             tar.add(file, arcname=os.path.basename(file))
     
     #post to aws and receive s3 link for upload file and future download url
-    url = 'https://rooym5wkn8.execute-api.us-east-1.amazonaws.com/test/getuploadlink'
+    url = 'aws_s3_upload_link'
     print('sending post to aws')
     response = requests.post(url)
     print('links received from aws')
